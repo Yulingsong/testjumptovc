@@ -15,6 +15,11 @@
 		18FE4FFA1C89656B00F2E85C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FE4FF81C89656B00F2E85C /* LaunchScreen.storyboard */; };
 		18FE50051C89656B00F2E85C /* testjumptovcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE50041C89656B00F2E85C /* testjumptovcTests.m */; };
 		18FE50101C89656B00F2E85C /* testjumptovcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE500F1C89656B00F2E85C /* testjumptovcUITests.m */; };
+		18FE501F1C8968A900F2E85C /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE501E1C8968A900F2E85C /* BViewController.m */; };
+		18FE50221C8968B300F2E85C /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE50211C8968B300F2E85C /* CViewController.m */; };
+		18FE50251C8968BC00F2E85C /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE50241C8968BC00F2E85C /* DViewController.m */; };
+		18FE502B1C8968D900F2E85C /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE502A1C8968D900F2E85C /* EViewController.m */; };
+		18FE502E1C89727E00F2E85C /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE502D1C89727E00F2E85C /* FViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		18FE500B1C89656B00F2E85C /* testjumptovcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testjumptovcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18FE500F1C89656B00F2E85C /* testjumptovcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testjumptovcUITests.m; sourceTree = "<group>"; };
 		18FE50111C89656B00F2E85C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FE501D1C8968A900F2E85C /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		18FE501E1C8968A900F2E85C /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		18FE50201C8968B300F2E85C /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		18FE50211C8968B300F2E85C /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		18FE50231C8968BC00F2E85C /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		18FE50241C8968BC00F2E85C /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
+		18FE50291C8968D900F2E85C /* EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		18FE502A1C8968D900F2E85C /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		18FE502C1C89727E00F2E85C /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		18FE502D1C89727E00F2E85C /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,16 @@
 				18FE4FEE1C89656B00F2E85C /* AppDelegate.m */,
 				18FE4FF01C89656B00F2E85C /* ViewController.h */,
 				18FE4FF11C89656B00F2E85C /* ViewController.m */,
+				18FE501D1C8968A900F2E85C /* BViewController.h */,
+				18FE501E1C8968A900F2E85C /* BViewController.m */,
+				18FE50201C8968B300F2E85C /* CViewController.h */,
+				18FE50211C8968B300F2E85C /* CViewController.m */,
+				18FE50231C8968BC00F2E85C /* DViewController.h */,
+				18FE50241C8968BC00F2E85C /* DViewController.m */,
+				18FE50291C8968D900F2E85C /* EViewController.h */,
+				18FE502A1C8968D900F2E85C /* EViewController.m */,
+				18FE502C1C89727E00F2E85C /* FViewController.h */,
+				18FE502D1C89727E00F2E85C /* FViewController.m */,
 				18FE4FF31C89656B00F2E85C /* Main.storyboard */,
 				18FE4FF61C89656B00F2E85C /* Assets.xcassets */,
 				18FE4FF81C89656B00F2E85C /* LaunchScreen.storyboard */,
@@ -270,7 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FE50221C8968B300F2E85C /* CViewController.m in Sources */,
+				18FE502E1C89727E00F2E85C /* FViewController.m in Sources */,
 				18FE4FF21C89656B00F2E85C /* ViewController.m in Sources */,
+				18FE501F1C8968A900F2E85C /* BViewController.m in Sources */,
+				18FE50251C8968BC00F2E85C /* DViewController.m in Sources */,
+				18FE502B1C8968D900F2E85C /* EViewController.m in Sources */,
 				18FE4FEF1C89656B00F2E85C /* AppDelegate.m in Sources */,
 				18FE4FEC1C89656B00F2E85C /* main.m in Sources */,
 			);
